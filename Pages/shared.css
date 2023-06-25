@@ -1,0 +1,75 @@
+#background {
+    height: 725px;
+    background-color: #f9b043e7;
+    grid-column: 1/11;
+    grid-row: 4/9;
+    z-index: -1;
+}
+
+/* #914abd5d */
+body { 
+    background-color: #F0EBE8; 
+}
+
+.logo {
+    padding-top: 0px;
+    justify-self: center;
+    align-self: center;
+    height: 100px;
+    width: 100px;
+}
+header {
+    background-color:#ed85d7;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 120px auto;
+    z-index: 1;
+    
+}
+nav {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a {
+
+    text-align: auto;
+    color: #396E94;
+    text-decoration: none;
+    padding: 25px;
+    margin: 10px;
+}
+nav a:hover {
+    background-color: #9753b9;
+    color: #71C47F;
+}
+.navigation {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 1em;
+    
+
+    
+}
+#content{
+    text-align: center;
+    align-self: center;
+}
+
+#candy_background {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -110px;
+   
+   
+}
+#background_img {
+    height: auto;
+    width: 1200px; 
+}
+#candy_box {
+    
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
