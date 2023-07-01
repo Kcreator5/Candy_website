@@ -63,11 +63,21 @@ nav a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    z-index: 1;
+    z-index: 0;
+}
+
+#candy_content { 
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 400px;
+    
 }
 
 #home_candy_background {
-    position: absolute; 
+   /* position: absolute; */
     
     margin-top: -150px;
     z-index: -1;
@@ -88,7 +98,7 @@ nav a:hover {
     width: 300px;
     margin: 10px;
     margin-top: 20px;
-    z-index: 1;
+    z-index: 0;
 }
 
 #bulk {
@@ -115,18 +125,29 @@ p {
     z-index: 1;
 }
 
-#title {
+#title_screen {
+    margin-top: -500px;
+    margin-bottom: 250px;
+    justify-content: space-evenly;
+    display: flex;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+/*#9753b9*/
+#title { 
     margin-top: 0;
+    color: #d65bce;
     justify-self: center;
     align-self: center;
     font-size: 75px;
     font-family: /*'Brush Script MT',*/ 'cursive', Arial, sans-serif; 
     z-index: 1;
-    margin-top: 1px;
+
 
     grid-column: 1/1;
-    grid-row: 1/1;
-    
+    grid-row: 1/1;   
 }
 
 h1 {
