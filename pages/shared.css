@@ -153,3 +153,10 @@ p {
     grid-column: 1/1;
     grid-row: 1/1;   
 }
+
+.selection_background {
+    height: 500px;
+    margin: 50px;
+    margin-top: 10px; 
+    margin-bottom: 75px;
+}
