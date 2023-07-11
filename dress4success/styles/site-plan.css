@@ -38,6 +38,8 @@ body {
   background-image: "styles\images\candied_background3.jpeg";
 }
 img {
+  height: 500px;
+  width: auto;
   display: block;
   margin: 0 auto;
 }

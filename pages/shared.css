@@ -53,9 +53,7 @@ nav a:hover {
     color: green;
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 1em;
-
 }
-
 
 .content{
     margin-left: 50px;
@@ -103,7 +101,7 @@ nav a:hover {
     height: 150px;
     width: 300px;
     margin: 10px;
-    margin-top: 20px;
+    margin-top: -50px;
     z-index: 0;
 }
 
@@ -156,7 +154,9 @@ p {
     grid-row: 1/1;   
 }
 
-h1 {
-
-    
+.selection_background {
+    height: 500px;
+    margin: 50px;
+    margin-top: 10px; 
+    margin-bottom: 75px;
 }
