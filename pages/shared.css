@@ -82,7 +82,7 @@ nav a:hover {
 
 #home_candy_background {
    /* position: absolute; */
-    
+    text-align: center;
     margin-top: -150px;
     z-index: -1;
    
