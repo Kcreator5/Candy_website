@@ -52,8 +52,10 @@ nav a:hover {
     border-color: #1fc789;
     color: green;
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
-    font-size: 1em;
+    font-size: 0cm;
+    
 }
+
 
 .content{
     margin-left: 50px;
@@ -67,7 +69,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    z-index: 0;
+    z-index: auto;
 }
 
 #candy_content { 
@@ -96,7 +98,8 @@ nav a:hover {
     z-index: -1;
 }
 #background_img {
-    width: 1000px;
+    height: 500px;
+    width: auto;
 }
 
 .candied_img {
@@ -132,7 +135,7 @@ p {
 }
 
 #title_screen {
-    margin-top: -500px;
+    margin-top: -450px;
     margin-bottom: 250px;
     justify-content: space-evenly;
     display: flex;
@@ -140,6 +143,7 @@ p {
     text-align: center;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+
 }
 /*#9753b9*/
 #title { 
@@ -148,9 +152,10 @@ p {
     justify-self: center;
     align-self: center;
     font-size: 75px;
-    font-family: /*'Brush Script MT',*/ 'cursive', Arial, sans-serif; 
+    font-family: 'Brush Script MT', 'cursive', Arial, sans-serif; 
     z-index: 1;
-
+    text-shadow: 3px 0 #7ebce6, 0 3px #145c9e, 3px 0 #6a66a3, 0 -3px #71C47F;
+    
 
     grid-column: 1/1;
     grid-row: 1/1;   
