@@ -76,6 +76,40 @@ nav a:hover {
     
 }
 
+.content2{
+    margin-top: 350px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    align-self: center;
+    justify-content: space-evenly;
+   /* height: auto; */
+   /* width: auto; */
+   /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+#content_text {
+    margin-top: 0;
+    color: #000000;
+    justify-self: center;
+    align-self: center;
+    font-size: 30px;
+    font-family: Garamond, Arial, sans-serif; 
+    z-index: 1;
+}
+#img_text {
+    margin-right: 15px;
+    margin-top: 25px;
+    color: #ffffff;
+    justify-self: center;
+    align-self: center;
+    font-size: 40px;
+    font-family: Garamond, Arial, sans-serif; 
+    z-index: 1;
+}
+
 #candy_content { 
     display: flex;
     justify-content: space-evenly;
@@ -83,8 +117,29 @@ nav a:hover {
     height: 450px;
     margin: 5px;
     
-    
 }
+
+#centered-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 85px;
+    font-size: 25px;
+    
+  }
+  div button {
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    height: 25px;
+    width: 50px;
+  }
+
+#centered-button button {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
 
 #home_candy_background {
    /* position: absolute; */
@@ -111,7 +166,13 @@ nav a:hover {
     width: 300px;
     margin: 10px;
     margin-top: -50px;
-    z-index: 0;
+    z-index: -1;
+}
+#candy_img {
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    z-index: -1;
 }
 
 #bulk {
@@ -133,7 +194,6 @@ nav a:hover {
 }
 p {
     text-align: center;
-    
     justify-content: space-evenly;
     z-index: 1;
 }
@@ -207,23 +267,23 @@ p {
   }
 
   .color-picker {
-    width: 200px;
+    width: 485px;
     margin: 20px auto;
   }
 
   .color-slider {
-    width: 100%;
-    height: 10px;
+    width: 500px;
+    height: 20px;
     background: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff, #ff0000);
     cursor: pointer;
   }
 
   .color-thumb {
-    width: 10px;
-    height: 20px;
-    background: #000;
+    width: 20px;
+    height: 30px;
+    background: #000000;
     border-radius: 50%;
     position: relative;
-    top: -5px;
+    top: 0px;
     cursor: pointer;
   }

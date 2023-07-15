@@ -39,17 +39,71 @@
         </h2>
     </div>
 
-    <div class="content">
+    <div class="content2">
+
+        <h2 id="content_text" > 
+            Candy Type:
+        </h2>
+        <h2 style="grid-column: 1/1; grid-row: 2/2;" id="content_text" > 
+            Taste:
+        </h2>
+        <h2 style="grid-column: 1/1; grid-row: 3/3;" id="content_text" > 
+            Color:
+        </h2>
+        <h2 style="grid-column: 3/4; grid-row: 4/5;" id="content_text" > 
+            <button id="centered-button">Finish</button>
+        </h2>
+        <!--images  <div style="display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr"> --> 
         
-        <div class="color-picker">
+        <h2 style="grid-column: 2/2; grid-row: 1/1;" id="img_text" > 
+            Gummy
+        </h2>
+        <img style="grid-column: 2/2; grid-row: 1/1;" id="candy_img" src="images\jelly.jpg" alt="background">
+
+        <h2 style="grid-column: 3/3; grid-row: 1/1; color: black;" id="img_text" > 
+            Powdered
+        </h2>
+        <img style="grid-column: 3/3; grid-row: 1/1;" id="candy_img" src="images\powder_candy.jpg" alt="background">
+
+        <h2 style="grid-column: 4/4; grid-row: 1/1;" id="img_text" > 
+            Hard
+        </h2>
+        <img style="grid-column: 4/4; grid-row: 1/1;" id="candy_img" src="images\bulk7.jpg" alt="background">
+
+        <h2 style="grid-column: 5/5; grid-row: 1/1;" id="img_text" > 
+            Gum
+        </h2>
+        <img style="grid-column: 5/5; grid-row: 1/1;" id="candy_img" src="images\gum.jpg" alt="background">
+        <!--   -->
+        <h2 style="grid-column: 2/2; grid-row: 2/2;" id="img_text" > 
+            Sweet
+        </h2>
+        <img style="grid-column: 2/2; grid-row: 2/2;" id="candy_img" src="images\hard_candy.jpg" alt="background">
+
+        <h2 style="grid-column: 3/3; grid-row: 2/2;" id="img_text" > 
+            Sour
+        </h2>
+        <img style="grid-column: 3/3; grid-row: 2/2;" id="candy_img" src="images\sour.jpg" alt="background">
+
+        <h2 style="grid-column: 4/4; grid-row: 2/2;" id="img_text" > 
+            Salty
+        </h2>
+        <img style="grid-column: 4/4; grid-row: 2/2;" id="candy_img" src="images\salty0.webp" alt="background">
+
+        <h2 style="grid-column: 5/5; grid-row: 2/2;" id="img_text" > 
+            Savory
+        </h2>
+        <img style="grid-column: 5/5; grid-row: 2/2;" id="candy_img" src="images\savory.png" alt="background">
+
+
+        <!--I got this slider from somwhere else V -->
+        <div style="grid-column: 1/6; grid-row: 3/3; margin-top: 50px; margin-left: 350px;" class="color-picker">
             <input type="range" min="0" max="360" value="0" class="color-slider" id="colorSlider">
             <div class="color-thumb" id="colorThumb"></div>
           </div>
-        
           <script>
             var slider = document.getElementById("colorSlider");
             var thumb = document.getElementById("colorThumb");
-        
             slider.addEventListener("input", function() {
               var hue = this.value;
               thumb.style.left = ((this.value / this.max) * 100) + "%";
@@ -57,7 +111,6 @@
             });
             </script>
         </div>
-
 
     </div>
 
