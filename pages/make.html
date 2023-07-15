@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Make</title>
+    <title>Home</title>
     <link rel="stylesheet" href="shared.css">
 </head>
-<body>
+<body style="background-color: #B3ECED;">
     
     <header class="navigation">
         <div>
@@ -24,13 +24,57 @@
             <a href="../dress4success\site-plan.html">Site-Plan</a>
         </nav>
     </header> 
+    <!--image -->  
+    <div id="home_candy_background, candy_box" style="text-align: center;">
+        <img id="background_img" src="images\3D3.jpg" alt="candybackground">  
+    </div>
 
-    <div id="candy_background">
-        <div id="candy_box">
-            <img id="background_img" src="images\asorted_candies1.jpeg" alt="candybackground">  
+    <div id="title_screen" style="margin-top: -490px;"> 
+        <h1 id="title">
+            Create your own candies
+        </h1>
 
+        <h2 style="color: #7ebce6; font-size: 35px; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">
+            
+        </h2>
+    </div>
+
+    <div class="content">
+        
+        <div class="color-picker">
+            <input type="range" min="0" max="360" value="0" class="color-slider" id="colorSlider">
+            <div class="color-thumb" id="colorThumb"></div>
+          </div>
+        
+          <script>
+            var slider = document.getElementById("colorSlider");
+            var thumb = document.getElementById("colorThumb");
+        
+            slider.addEventListener("input", function() {
+              var hue = this.value;
+              thumb.style.left = ((this.value / this.max) * 100) + "%";
+              thumb.style.backgroundColor = "hsl(" + hue + ", 100%, 50%)";
+            });
+            </script>
         </div>
 
+
+    </div>
+
+    
+
+
+
+    <footer class="footer" style="background-color: #B3ECED;">
+        <div class="container">
+          <p>&copy; 2023 Extravigent Sweets. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+          <div class="social-icons">
+            <a href="#"><i class="facebook"></i></a>
+            <a href="#"><i class="twitter"></i></a>
+            <a href="#"><i class="instagram"></i></a>
+          </div>
+        </div>
+      </footer>
 
 </body>
 </html>
